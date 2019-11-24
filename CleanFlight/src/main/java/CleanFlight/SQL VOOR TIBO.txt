@@ -1,0 +1,32 @@
+Benodigde SQL toepassingen (aan T-Beau)
+
+1. SQLcode die alle airports gaat ophalen, buiten de origin(id) en arrival (id)
+en deze gaat steken in een mooi lijstje ArralyList<integers> 
+ 
+De methode zou het best iets als volgt zijn ArrayList<Integer> GetAllAirports(int originid, int arrivalid)
+waarbij je eerst
+ ArrayList<Integer> NotVisitedYet = new ArrayList<Integer>();
+ NotVisitedYet.add(originin);
+ NotVisitedYet.add(arrivalid);
+ NotVisitedyet.add(al de rest bleuten);
+ 
+ 
+2. SQLcode die gegeven de volgende gegevens
+int origin_id
+int destination_id 
+int[] date (kan via Julian zijn composedateandtime samen met TimeCurrent vlotjes naar een SQL leesbaar formaat worden gezet)
+int NumOfPassengers 
+int TimeCurrent
+
+de snelste vlucht na opgegeven datum en tijdstip gaat zoeken die tussen deze 2 luchthavens vliegt.
+kijk of er nog genoeg vrije stoeltjes zijn
+
+public static Flight SoonestFlight(int origin_id, int destination_id, int[] date, int NumOfPassengers, int TimeCurrent)
+geef mij een vluchtobject terug
+goeie soepe wi
+
+3. ** SQL code die voor de input van Jord zijn GUI, de juiste airport ID voor de depcode (bv BRU) en arrivcode (bv BCN) locatie gaat ophalen
+public int getIDfromCode(String AirportCode)
+
+
+
